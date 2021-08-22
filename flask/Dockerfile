@@ -7,7 +7,7 @@ RUN apt-get remove -y binutils
 RUN apt-get install -y python3.6
 RUN apt-get install -y python3-pip
 RUN apt-get install -y python-dev
-RUN apt-get install -y uwsgi-plugin-python
+RUN apt-get install -y uwsgi-plugin-python3
 RUN apt-get install -y nginx
 RUN apt-get install -y supervisor
 RUN echo 'Etc/UTC' >/etc/timezone
